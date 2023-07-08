@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: OpenSansReg;
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: OpenSansSemiBold;
+  src: url("../assets/fonts/OpenSans-SemiBold.ttf");
+}
