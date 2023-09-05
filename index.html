@@ -18,26 +18,82 @@
         <nav class="navig">
             <ul class="navig__list">
                 <li class="navig__list__item">
-                    <a class="navig__list__item__link" href="#blog">Blog</a>
+                    <a class="item__link" href="#blog">Blog</a>
                 </li>
                 <li class="navig__list__item">
-                    <a class="navig__list__item__link" href="#contacts">Contacts</a>
+                    <a class="item__link" href="#contacts">Contacts</a>
                 </li>
                 <li class="navig__list__item">
-                    <a class="navig__list__item__link" href="#">
+                    <a class="item__link" href="#">
                         <img src="./assets/images/search.png" alt="Search button" width="32" height="32">
                     </a>
                 </li>
                 <li class="navig__list__item">
-                    <a class="navig__list__item__link" href="#">Sing in</a>
+                    <button class="button-not-filled" href="#">Sign in</button>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero">
-
-        </div>
+        <section class="hero">
+            <h2 class="hero__heading">Survival</h2>
+            <p class="hero__paragraph">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
+            <button class="button-filled hero__button">Donate</button>
+        </section>
+        <section class="blog" id="blog">
+            <h2 class="blog__heading">Latest articles</h2>
+            <h3 class="blog__subheading">Breaking news from the wild</h3>
+            <ul class="blog__list">
+                <li>
+                    <img src="./assets/images/arrow.png" alt="left-arrow">
+                </li>
+                <li class="blog__list__item deer" title="deer">
+                    <h4 class="item__heading">Deer</h4>
+                    <p class="item__subtitle">Naturalist investigation</p>
+                </li>
+                <li class="blog__list__item squirrel" title="squirrel">
+                    <h4 class="item__heading">Squirrel</h4>
+                    <p class="item__subtitle">Kamikaze squirrels</p>
+                </li>
+                <li class="blog__list__item bird" title="bird">
+                    <h4 class="item__heading">Bird</h4>
+                    <p class="item__subtitle">Birds Fight club</p>
+                </li>
+                <li>
+                    <img src="./assets/images/arrow.png" alt="right-arrow" class="right-arrow">
+                </li>
+            </ul>
+        </section>
+        <secton class="get-not">
+            <h2 class="get-not__heading">Get notified about new amazing articles</h2>
+            <form action="#" class="get-not__form">
+                <input type="email" placeholder="Email" id="email" name="email" class="get-not__form__input">
+                <input type="submit" value="Send" class="button-filled get-not__form__button">
+            </form>
+        </secton>
     </main>
+    <footer id="contacts" class="footer">
+        <div class="wraper">
+            <div class="logo">
+                <img src="./assets/images/horns.svg" alt="Logo horns" class="logo__image" width="70" height="60">
+                <p class="logo__heading">wildlife</p>
+            </div>
+            <ul class="footer__list nav">
+                <li class="footer__list__item">
+                    <a class="item__link" href="#">Articles</a>
+                </li>
+                <li class="footer__list__item">
+                    <a class="item__link" href="#">About us</a></li>
+                <li class="footer__list__item">
+                    <a class="item__link" href="#">Learn more</a></li>
+            </ul>
+            <ul class="footer__list cont">
+                <li class="contacts__item"><a href="#"><img src="./assets/images/facebook.svg" alt="Facebook link"></a></li>
+                <li class="contacts__item"><a href="#"><img src="./assets/images/instagram.svg" alt="Instagram link"></a></li>
+                <li class="contacts__item"><a href="#"><img src="./assets/images/pinterest.svg" alt="Pinterest link"></a></li>
+                <li class="contacts__item"><a href="#"><img src="./assets/images/telegram.png" alt="Telegram link"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
